@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "main" {
 
 resource "azurerm_virtual_network" "main" {
   name                = "${var.prefix}-vnet"
-  address_space       = [Var.vnetaddressspace]
+  address_space       = [var.vnetaddressspace]
   location            = azurerm_resource_group.main.location
   resource_group_name = azurerm_resource_group.main.name
   tags = {
