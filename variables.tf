@@ -29,7 +29,7 @@ variable "azurebastionsubnet" {
 variable "workloadsubnet" {
   description = "The address space for the Workload Subnet"
   type        = string
-  default     = "10.50.128/26"
+  default     = "10.50.0.128/26"
 }
 
 variable "avs-sku" {
