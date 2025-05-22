@@ -35,7 +35,7 @@ variable "workloadsubnet" {
 variable "avs-sku" {
   description = "The SKU for the Azure VMware Solution"
   type        = string
-  default     = "AV36p"
+  default     = "av36p"
 }
 
 variable "avs-hostcount" {
